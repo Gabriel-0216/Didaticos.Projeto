@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Didaticos.Projeto.DAL\Didaticos.Projeto.DAL.csproj" />
+    <ProjectReference Include="..\Didaticos.Projeto.Model\Didaticos.Projeto.Model.csproj" />
+    <ProjectReference Include="..\Didaticos.Projeto.ViewModel\Didaticos.Projeto.ViewModel.csproj" />
+  </ItemGroup>
+
+</Project>
